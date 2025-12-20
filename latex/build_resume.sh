@@ -13,5 +13,9 @@ fi
 echo "[+] Compiling resume..."
 docker run --rm -v "$PWD":/data "$IMAGE" make
 
+echo "[+] Cleaning temporary files..."
+make clean
+mv resume.pdf ..
+
 echo "[✓] Done."
 echo "Output: resume.pdf"
