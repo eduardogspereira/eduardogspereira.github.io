@@ -144,3 +144,81 @@ h1 {
         width: 100%;
     }
 }
+
+/* Portfolio page */
+
+.portfolio {
+    justify-content: flex-start;
+    padding-top: 64px;
+}
+
+.portfolio-header {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.portfolio-header h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.portfolio-intro {
+    max-width: 520px;
+    margin: 0 auto 16px;
+    font-size: 0.95rem;
+    color: rgba(0,0,0,0.7);
+}
+
+.back-link {
+    font-size: 0.9rem;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.portfolio-grid {
+    width: 100%;
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+}
+
+.project-card {
+    padding: 22px 24px;
+    background: rgba(255,255,255,0.6);
+    border: 1px solid rgba(0,0,0,0.12);
+    border-radius: 10px;
+}
+
+.project-card h2 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 0.9rem;
+    color: rgba(0,0,0,0.75);
+    margin-bottom: 14px;
+}
+
+.stack {
+    display: block;
+    font-size: 0.8rem;
+    color: rgba(0,0,0,0.6);
+    margin-bottom: 12px;
+}
+
+.project-links a {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0,0,0,0.35);
+}
+
+.placeholder {
+    opacity: 0.6;
+}
