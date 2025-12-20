@@ -6,36 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c78a90ed-f0d7-4e74-b516-b9f7895b5d7c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/awesome-cv.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/cv/committees.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/cv/education.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/cv/experience.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/cv/extracurricular.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/cv/honors.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/cv/presentation.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/cv/skills.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/cv/writing.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/fonts/FontAwesome.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/fonts/Roboto-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/fonts/Roboto-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/fonts/Roboto-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/fonts/Roboto-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/fonts/Roboto-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/fonts/Roboto-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/fonts/Roboto-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/fonts/Roboto-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/fonts/Roboto-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/fonts/Roboto-ThinItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/resume.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/resume/committees.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/resume/education.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/resume/experience.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/resume/extracurricular.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/resume/honors.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/resume/presentation.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/resume/summary.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/resume/writing.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
