@@ -4,7 +4,39 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c78a90ed-f0d7-4e74-b516-b9f7895b5d7c" name="Changes" comment="" />
+    <list default="true" id="c78a90ed-f0d7-4e74-b516-b9f7895b5d7c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/awesome-cv.cls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/cv/committees.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/cv/education.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/cv/experience.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/cv/extracurricular.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/cv/honors.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/cv/presentation.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/cv/skills.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/cv/writing.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/fonts/FontAwesome.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/fonts/Roboto-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/fonts/Roboto-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/fonts/Roboto-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/fonts/Roboto-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/fonts/Roboto-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/fonts/Roboto-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/fonts/Roboto-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/fonts/Roboto-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/fonts/Roboto-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/fonts/Roboto-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/resume.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/resume/committees.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/resume/education.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/resume/experience.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/resume/extracurricular.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/resume/honors.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/resume/presentation.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/resume/summary.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/resume/writing.tex" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,22 +54,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.GoLinterPluginOnboardingV2": "true",
-    "RunOnceActivity.GoLinterPluginStorageMigration": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/majortom",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.GoLinterPluginOnboardingV2&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.GoLinterPluginStorageMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/majortom&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resume" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
