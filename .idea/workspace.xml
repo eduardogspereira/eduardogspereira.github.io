@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c78a90ed-f0d7-4e74-b516-b9f7895b5d7c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/resume.tex" beforeDir="false" afterPath="$PROJECT_DIR$/latex/resume.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/resume.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latex/resume/experience.tex" beforeDir="false" afterPath="$PROJECT_DIR$/latex/resume/experience.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
