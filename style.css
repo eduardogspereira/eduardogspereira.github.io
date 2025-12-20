@@ -75,23 +75,38 @@ h1 {
 /* Primary links */
 .links {
     display: flex;
-    gap: 14px;
+    justify-content: center;
+    gap: 28px;
     margin-bottom: 48px;
-}
-
-.btn {
-    text-decoration: none;
-    padding: 12px 22px;
-    border: 2px solid #444;
-    color: #444;
+    font-size: 1rem;
     font-weight: 600;
-    border-radius: 6px;
-    transition: background-color 0.2s ease, color 0.2s ease;
 }
 
-.btn:hover {
-    background-color: #444;
-    color: #fff;
+.link {
+    position: relative;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #222;
+    letter-spacing: 0.02em;
+    padding-bottom: 4px;
+}
+
+.link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.35);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.2s ease;
+}
+
+.link:hover::after {
+    transform: scaleX(1);
 }
 
 /* Social links */
