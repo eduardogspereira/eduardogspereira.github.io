@@ -12,51 +12,118 @@
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Eduardo G. S. Pereira – Senior Software Engineer</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Eduardo G. S. Pereira &ndash; Senior Backend Engineer</title>
+  <meta name="description" content="Senior backend engineer building payment systems that process millions of transactions a day. Go, Kubernetes and AWS.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://eduardogspereira.github.io/">
+  <meta property="og:title" content="Eduardo G. S. Pereira &ndash; Senior Backend Engineer">
+  <meta property="og:description" content="Senior backend engineer building payment systems that process millions of transactions a day. Go, Kubernetes and AWS.">
+  <meta property="og:image" content="https://eduardogspereira.github.io/assets/photo.jpg">
+  <meta name="color-scheme" content="light dark">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 </head>
 <body>
-  <main class="container">
-    <section class="hero">
-      <img src="assets/photo.jpg" alt="Eduardo Pereira" class="profile-photo">
-      <h1>Eduardo G. S. Pereira</h1>
+  <div class="page">
 
-      <p class="title">Senior Software Engineer</p>
-
-      <p class="value">Backend · Cloud · Distributed systems</p>
-
-
-      <div class="links">
-        <a href="portfolio.html" class="btn-soft">Portfolio</a>
-        <a href="resume.pdf" target="_blank" class="btn-soft">CV</a>
+    <header class="masthead">
+      <div class="identity">
+        <img src="assets/photo.jpg" alt="" class="photo" width="56" height="56">
+        <div>
+          <h1>Eduardo G. S. Pereira</h1>
+          <p class="role">Senior / Staff Backend Engineer, London</p>
+        </div>
       </div>
 
-    </section>
+      <nav class="nav" aria-label="Links">
+        <a href="resume.pdf">CV</a>
+        <a href="https://github.com/eduardogspereira">GitHub</a>
+        <a href="https://www.linkedin.com/in/eduardogspereira/">LinkedIn</a>
+        <a href="mailto:edu_vcd@hotmail.com">Email</a>
+      </nav>
+    </header>
 
+    <main>
+      <section class="intro">
+        <p class="lede">
+          I build and operate payment systems that process millions of transactions a day.
+        </p>
+        <p>
+          For the past five years at Form3 I have worked on the services behind UK bank payments:
+          batch and real-time flows, on-call, incident response and the architectural decisions
+          that come with regulated environments. Most of my work is in Go, on Kubernetes and AWS.
+        </p>
+      </section>
 
-    <section class="contact">
-      <p>
-        Available for selective freelance work, consulting and technical mentoring.
-        Best way to reach me is via email or LinkedIn.
-      </p>
+      <section aria-labelledby="work">
+        <h2 id="work">Selected work</h2>
 
-      <a href="mailto:edu_vcd@hotmail.com" class="contact-link">Get in touch</a>
-    </section>
+        <article class="item">
+          <h3>Million-transaction files in 150 MB of memory</h3>
+          <p>
+            Rebuilt a batch service around a streaming external merge sort for NDJSON files.
+            Memory use fell from about 8 GB to about 150 MB, out-of-memory failures stopped,
+            and a customer could scale towards 12 million transactions a day.
+          </p>
+        </article>
 
-    <footer class="socials">
-      <a href="https://github.com/eduardogspereira" target="_blank" aria-label="GitHub">
-        <i class="fab fa-github fa-lg"></i>
-      </a>
+        <article class="item">
+          <h3>Confirmation of Payee flows</h3>
+          <p>
+            Designed and built the Responder and Requester flows for Confirmation of Payee,
+            the UK service that checks an account name before a payment is sent.
+          </p>
+        </article>
 
-      <a href="https://www.linkedin.com/in/eduardogspereira/" target="_blank" aria-label="LinkedIn">
-        <i class="fab fa-linkedin fa-lg"></i>
-      </a>
-    </footer>
-  </main>
+        <article class="item">
+          <h3>Reliable event publishing for name verification</h3>
+          <p>
+            Built outbox-based event publishing to NATS JetStream for the name verification
+            API, with a fallback poller on CockroachDB.
+          </p>
+        </article>
+      </section>
+
+      <section aria-labelledby="experience">
+        <h2 id="experience">Experience</h2>
+
+        <table class="history">
+          <tbody>
+            <tr>
+              <th scope="row">2021 &ndash; now</th>
+              <td><strong>Form3</strong>, Senior Software Engineer<span class="note">Payments platform for banks. BACS, Confirmation of Payee, name verification.</span></td>
+            </tr>
+            <tr>
+              <th scope="row">2020 &ndash; 2021</th>
+              <td><strong>idwall</strong>, Software Engineer<span class="note">Identity verification. Platform rollout with zero downtime, autoscaling on Kubernetes.</span></td>
+            </tr>
+            <tr>
+              <th scope="row">2019 &ndash; 2020</th>
+              <td><strong>Pagar.me</strong>, Software Engineer<span class="note">Online payments. Onboarding cut from 15 minutes to 30 seconds.</span></td>
+            </tr>
+            <tr>
+              <th scope="row">2018 &ndash; 2019</th>
+              <td><strong>Cyan Agroanalytics</strong>, Software Engineer<span class="note">Satellite imagery pipelines across Latin America.</span></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p class="more"><a href="resume.pdf">Read the full CV (PDF)</a></p>
+      </section>
+
+      <section aria-labelledby="contact">
+        <h2 id="contact">Contact</h2>
+        <p>
+          I am open to senior backend roles, fully remote. The best way to reach me is by
+          <a href="mailto:edu_vcd@hotmail.com">email</a> or
+          <a href="https://www.linkedin.com/in/eduardogspereira/">LinkedIn</a>.
+        </p>
+      </section>
+    </main>
+
+  </div>
 </body>
 </html>
